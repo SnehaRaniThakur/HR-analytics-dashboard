@@ -2,19 +2,61 @@
 
 ![Dashboard](dashboard_preview.png)
 
-## 🔍 Overview
+## 🔍 Project Overview
 
-This project presents an end-to-end **HR Analytics dashboard** built using Power BI to analyze employee attrition patterns and uncover actionable business insights.
+This project is an **interactive HR Analytics dashboard** built using Power BI to analyze employee attrition and workforce trends.
 
-The dashboard helps identify key factors influencing employee turnover, enabling organizations to improve retention strategies and workforce planning.
+The goal is to identify key factors driving employee turnover and provide **data-driven insights** to improve employee retention and organizational performance.
+
+---
+
+## 🎯 Problem Statement
+
+Employee attrition is a critical challenge for organizations. High turnover leads to:
+
+* Increased hiring and training costs
+* Loss of experienced talent
+* Reduced productivity
+
+This dashboard helps HR teams **identify patterns and root causes of attrition**.
 
 ---
 
 ## 📁 Project Files
 
-* **HR_Analytics_Dashboard.pbix** → Power BI dashboard file
-* **HR_Dataset.csv** → Dataset used for analysis
-* **dashboard_preview.png** → Dashboard snapshot
+* `HR_Analytics_Dashboard.pbix` → Power BI dashboard
+* `HR_Dataset.csv` → Dataset used
+* `dashboard_preview.png` → Dashboard image
+
+---
+
+## ⚙️ Workflow / Steps Followed
+
+### 1️⃣ Data Collection
+
+* Imported HR dataset (CSV format)
+
+### 2️⃣ Data Cleaning (Power Query)
+
+* Removed duplicates
+* Handled missing values
+* Converted data types
+* Standardized column names
+
+### 3️⃣ Data Modeling
+
+* Created relationships between tables
+* Built calculated columns and measures using DAX
+
+### 4️⃣ Dashboard Development
+
+* Designed KPI cards for quick insights
+* Created interactive visuals:
+
+  * Bar charts
+  * Pie/Donut charts
+  * Line charts
+  * Matrix tables
 
 ---
 
@@ -31,68 +73,82 @@ The dashboard helps identify key factors influencing employee turnover, enabling
 
 ## 📈 Key Insights
 
-* 🔴 Highest attrition occurs in the **26–35 age group**
-* 💰 Employees earning **≤5K salary** show the highest attrition
-* 🎓 **Life Sciences** background contributes the most to attrition
-* 🏢 **Research & Development** department has the highest attrition
-* ⏳ Majority of employees leave within the **first 2 years**
-* 👨‍💼 Roles like **Sales Executive and Laboratory Technician** show higher turnover
+* 🔴 Highest attrition occurs in **26–35 age group**
+* 💰 Employees earning **≤5K salary** show highest attrition
+* 🎓 **Life Sciences** field has highest attrition
+* 🏢 **Research & Development** department is most affected
+* ⏳ Most employees leave within **first 2 years**
+* 👨‍💼 Roles like **Sales Executive & Lab Technician** show higher turnover
 
 ---
 
 ## 📊 Dashboard Features
 
-* Attrition analysis by **Age, Salary, Education, and Department**
-* Job Role vs **Job Satisfaction matrix**
-* Attrition trend by **Years at Company**
-* Interactive filters for **Department and Gender**
-* KPI cards for quick summary insights
+* Attrition analysis by:
+
+  * Age Group
+  * Salary
+  * Education
+  * Department
+* Job Role vs Satisfaction matrix
+* Attrition trend over time
+* Interactive filters (Department, Gender)
+* KPI summary cards
 
 ---
 
 ## 🛠 Tools & Technologies
 
 * Power BI
-* Microsoft Excel / CSV
-* Data Visualization Techniques
+* Power Query
+* DAX (Data Analysis Expressions)
+* CSV / Excel
 
 ---
 
-## 🎯 Business Impact
+## 🧠 Skills Demonstrated
 
-This dashboard enables HR teams to:
+* Data Cleaning & Transformation
+* Data Visualization
+* KPI Analysis
+* Business Insight Generation
+* Dashboard Design
+
+---
+
+## 💼 Business Impact
+
+This dashboard enables organizations to:
 
 * Identify high-risk employee segments
-* Improve employee retention strategies
-* Optimize hiring and compensation policies
-* Support data-driven HR decision-making
+* Improve retention strategies
+* Optimize salary structures
+* Make informed HR decisions
 
 ---
 
 ## 🚀 How to Use
 
 1. Download the `.pbix` file
-2. Open it in **Power BI Desktop**
-3. Explore interactive visuals and filters
-
----
-
-## 🧠 Skills Demonstrated
-
-* Data Cleaning & Preparation
-* Data Visualization
-* KPI & Trend Analysis
-* Business Insight Generation
-* Dashboard Design
+2. Open in Power BI Desktop
+3. Explore dashboard using filters
 
 ---
 
 ## 🌟 Future Improvements
 
 * Add attrition analysis by **Gender and Job Level**
-* Improve dashboard UI with a more professional color palette
-* Integrate real-time or larger datasets
+* Improve UI with professional color palette
+* Integrate real-time HR data
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## 👩‍💻 Author
+
+**Sneha Rani Thakur**
+Aspiring Data Analyst | Power BI Enthusiast
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
