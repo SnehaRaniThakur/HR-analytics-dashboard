@@ -4,9 +4,9 @@
 
 ## 🔍 Project Overview
 
-This project presents an **interactive HR Analytics dashboard** built using Power BI to analyze employee attrition and workforce patterns.
+This project showcases an **interactive HR Analytics dashboard** built using Power BI to analyze employee attrition and workforce trends.
 
-The objective is to identify key factors driving employee turnover and provide **data-driven insights** that help organizations improve retention and decision-making.
+The objective is to identify key factors influencing employee turnover and provide **data-driven insights** to improve employee retention and organizational performance.
 
 ---
 
@@ -16,9 +16,9 @@ Employee attrition is a major challenge for organizations, leading to:
 
 * Increased hiring and training costs
 * Loss of experienced employees
-* Reduced organizational efficiency
+* Reduced productivity
 
-This dashboard helps HR teams understand **why employees leave** and take corrective actions.
+This dashboard helps HR teams understand **why employees leave** and take strategic actions.
 
 ---
 
@@ -26,7 +26,7 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 
 * `HR_Analytics_Dashboard.pbix` → Power BI dashboard
 * `HR_Dataset.csv` → Dataset used for analysis
-* `dashboard_preview.png` → Dashboard snapshot
+* `dashboard_preview.png` → Dashboard screenshot
 
 ---
 
@@ -34,30 +34,30 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 
 ### 1️⃣ Data Collection
 
-* Imported HR dataset from CSV file
+* Imported HR dataset from CSV
 
 ### 2️⃣ Data Cleaning (Power Query)
 
 * Removed duplicates
 * Handled missing values
+* Standardized columns
 * Corrected data types
-* Standardized column names
 
 ### 3️⃣ Data Modeling
 
 * Created relationships
-* Built calculated columns & measures using DAX
+* Built calculated columns and measures using DAX
 
 ### 4️⃣ Dashboard Development
 
 * Designed KPI cards
-* Created visuals:
+* Created interactive visuals:
 
   * Bar charts
   * Donut charts
   * Line charts
   * Matrix tables
-* Added slicers for interactivity
+* Added slicers for filtering
 
 ---
 
@@ -75,8 +75,8 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 ## 📈 Key Insights
 
 * 🔴 Highest attrition in **26–35 age group**
-* 💰 Employees with salary **≤5K** show highest attrition
-* 🎓 **Life Sciences** education has highest attrition
+* 💰 Employees earning **≤5K salary** show highest attrition
+* 🎓 **Life Sciences** field has maximum attrition
 * 🏢 **Research & Development** department most affected
 * ⏳ Majority attrition occurs in **first 2 years**
 * 👨‍💼 Roles like **Sales Executive & Lab Technician** show high turnover
@@ -85,14 +85,9 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 
 ## 📊 Dashboard Features
 
-* Attrition analysis by:
-
-  * Age
-  * Salary
-  * Education
-  * Department
+* Attrition analysis by Age, Salary, Education, and Department
 * Job Role vs Satisfaction matrix
-* Attrition trend over years
+* Attrition trend by years at company
 * Interactive filters (Department, Gender)
 * KPI summary cards
 
@@ -102,7 +97,7 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 
 * Power BI
 * Power Query
-* DAX (Data Analysis Expressions)
+* DAX
 * CSV / Excel
 
 ---
@@ -119,12 +114,12 @@ This dashboard helps HR teams understand **why employees leave** and take correc
 
 ## 💼 Business Impact
 
-This dashboard helps organizations:
+This dashboard enables organizations to:
 
 * Identify high-risk employee segments
 * Improve retention strategies
-* Optimize salary and HR policies
-* Enable data-driven decision-making
+* Optimize HR policies
+* Make data-driven decisions
 
 ---
 
@@ -138,9 +133,9 @@ This dashboard helps organizations:
 
 ## 🌟 Future Improvements
 
-* Add attrition analysis by **Gender & Job Level**
-* Improve UI with a professional color palette
-* Integrate real-time HR data
+* Add attrition analysis by **Gender and Job Level**
+* Improve UI with professional color palette
+* Integrate real-time data
 
 ---
 
