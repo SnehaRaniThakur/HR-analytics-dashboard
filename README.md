@@ -4,29 +4,29 @@
 
 ## 🔍 Project Overview
 
-This project is an **interactive HR Analytics dashboard** built using Power BI to analyze employee attrition and workforce trends.
+This project presents an **interactive HR Analytics dashboard** built using Power BI to analyze employee attrition and workforce patterns.
 
-The goal is to identify key factors driving employee turnover and provide **data-driven insights** to improve employee retention and organizational performance.
+The objective is to identify key factors driving employee turnover and provide **data-driven insights** that help organizations improve retention and decision-making.
 
 ---
 
 ## 🎯 Problem Statement
 
-Employee attrition is a critical challenge for organizations. High turnover leads to:
+Employee attrition is a major challenge for organizations, leading to:
 
 * Increased hiring and training costs
-* Loss of experienced talent
-* Reduced productivity
+* Loss of experienced employees
+* Reduced organizational efficiency
 
-This dashboard helps HR teams **identify patterns and root causes of attrition**.
+This dashboard helps HR teams understand **why employees leave** and take corrective actions.
 
 ---
 
 ## 📁 Project Files
 
 * `HR_Analytics_Dashboard.pbix` → Power BI dashboard
-* `HR_Dataset.csv` → Dataset used
-* `dashboard_preview.png` → Dashboard image
+* `HR_Dataset.csv` → Dataset used for analysis
+* `dashboard_preview.png` → Dashboard snapshot
 
 ---
 
@@ -34,29 +34,30 @@ This dashboard helps HR teams **identify patterns and root causes of attrition**
 
 ### 1️⃣ Data Collection
 
-* Imported HR dataset (CSV format)
+* Imported HR dataset from CSV file
 
 ### 2️⃣ Data Cleaning (Power Query)
 
 * Removed duplicates
 * Handled missing values
-* Converted data types
+* Corrected data types
 * Standardized column names
 
 ### 3️⃣ Data Modeling
 
-* Created relationships between tables
-* Built calculated columns and measures using DAX
+* Created relationships
+* Built calculated columns & measures using DAX
 
 ### 4️⃣ Dashboard Development
 
-* Designed KPI cards for quick insights
-* Created interactive visuals:
+* Designed KPI cards
+* Created visuals:
 
   * Bar charts
-  * Pie/Donut charts
+  * Donut charts
   * Line charts
   * Matrix tables
+* Added slicers for interactivity
 
 ---
 
@@ -73,12 +74,12 @@ This dashboard helps HR teams **identify patterns and root causes of attrition**
 
 ## 📈 Key Insights
 
-* 🔴 Highest attrition occurs in **26–35 age group**
-* 💰 Employees earning **≤5K salary** show highest attrition
-* 🎓 **Life Sciences** field has highest attrition
-* 🏢 **Research & Development** department is most affected
-* ⏳ Most employees leave within **first 2 years**
-* 👨‍💼 Roles like **Sales Executive & Lab Technician** show higher turnover
+* 🔴 Highest attrition in **26–35 age group**
+* 💰 Employees with salary **≤5K** show highest attrition
+* 🎓 **Life Sciences** education has highest attrition
+* 🏢 **Research & Development** department most affected
+* ⏳ Majority attrition occurs in **first 2 years**
+* 👨‍💼 Roles like **Sales Executive & Lab Technician** show high turnover
 
 ---
 
@@ -86,12 +87,12 @@ This dashboard helps HR teams **identify patterns and root causes of attrition**
 
 * Attrition analysis by:
 
-  * Age Group
+  * Age
   * Salary
   * Education
   * Department
 * Job Role vs Satisfaction matrix
-* Attrition trend over time
+* Attrition trend over years
 * Interactive filters (Department, Gender)
 * KPI summary cards
 
@@ -118,12 +119,12 @@ This dashboard helps HR teams **identify patterns and root causes of attrition**
 
 ## 💼 Business Impact
 
-This dashboard enables organizations to:
+This dashboard helps organizations:
 
 * Identify high-risk employee segments
 * Improve retention strategies
-* Optimize salary structures
-* Make informed HR decisions
+* Optimize salary and HR policies
+* Enable data-driven decision-making
 
 ---
 
@@ -137,8 +138,8 @@ This dashboard enables organizations to:
 
 ## 🌟 Future Improvements
 
-* Add attrition analysis by **Gender and Job Level**
-* Improve UI with professional color palette
+* Add attrition analysis by **Gender & Job Level**
+* Improve UI with a professional color palette
 * Integrate real-time HR data
 
 ---
@@ -150,5 +151,4 @@ Aspiring Data Analyst | Power BI Enthusiast
 
 ---
 
-⭐ If you like this project, consider giving it a star!
-
+⭐ If you found this project useful, give it a star!
